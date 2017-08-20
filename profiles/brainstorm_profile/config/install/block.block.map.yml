@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:fc889abf-20be-4f2d-9d46-a52021603899'
+  module:
+    - block_content
+    - system
+  theme:
+    - brainstorm_theme
+id: map
+theme: brainstorm_theme
+region: content
+weight: -3
+provider: null
+plugin: 'block_content:fc889abf-20be-4f2d-9d46-a52021603899'
+settings:
+  id: 'block_content:fc889abf-20be-4f2d-9d46-a52021603899'
+  label: Map
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact
+    negate: false
+    context_mapping: {  }

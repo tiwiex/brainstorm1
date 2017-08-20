@@ -1,0 +1,4 @@
+#page-wrapper:not(.front) .featured-top {
+  background: #000 url('../images/pic_title/base1.jpg') 50% no-repeat;
+  background-size: cover;
+}

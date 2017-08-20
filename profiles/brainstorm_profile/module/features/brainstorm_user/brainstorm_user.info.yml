@@ -1,0 +1,15 @@
+name: User
+description: 'Provide User related configuration.'
+type: module
+# core: 8.x
+dependencies:
+  - field
+  - file
+  - image
+  - user
+
+# Information added by Drupal.org packaging script on 2016-08-05
+version: '8.x-1.0-beta1'
+core: '8.x'
+project: 'brainstorm_profile'
+datestamp: 1470386784

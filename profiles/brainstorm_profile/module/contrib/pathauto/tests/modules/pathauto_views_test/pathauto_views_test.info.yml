@@ -1,0 +1,20 @@
+name: 'Views Test Config'
+type: module
+description: 'Provides default views for tests.'
+package: Testing
+# version: VERSION
+# core: 8.x
+dependencies:
+  - views
+
+# Information added by Drupal.org packaging script on 2016-04-18
+# version: '8.x-1.0-alpha3'
+# core: '8.x'
+# project: 'pathauto'
+# datestamp: 1461007782
+
+# Information added by Drupal.org packaging script on 2016-08-05
+version: '8.x-1.0-beta1'
+core: '8.x'
+project: 'brainstorm_profile'
+datestamp: 1470386784
